@@ -475,11 +475,11 @@ Description: שלהבת ברק מלווה הורים לבנות נוכחות ד�
 ### יצירת קשר
 
 
-- [business_email]
+- tomerbarak28@gmail.com
 
 - [business_phone]
 
-- [business_address]
+- ראשון לציון
 
 
 
@@ -502,8 +502,6 @@ Description: שלהבת ברק מלווה הורים לבנות נוכחות ד�
 
 
 ### עקבו אחרינו
-
-
 
 
 
@@ -926,11 +924,11 @@ Description: שלהבת ברק היא יועצת אתרים מובילה עם נ
 ### יצירת קשר
 
 
-- [business_email]
+- tomerbarak28@gmail.com
 
 - [business_phone]
 
-- [business_address]
+- ראשון לציון
 
 
 
@@ -953,8 +951,6 @@ Description: שלהבת ברק היא יועצת אתרים מובילה עם נ
 
 
 ### עקבו אחרינו
-
-
 
 
 
@@ -1505,11 +1501,11 @@ Description: מבניית אתר ועד ניהול נוכחות דיגיטלית
 ### יצירת קשר
 
 
-- [business_email]
+- tomerbarak28@gmail.com
 
 - [business_phone]
 
-- [business_address]
+- ראשון לציון
 
 
 
@@ -1532,8 +1528,6 @@ Description: מבניית אתר ועד ניהול נוכחות דיגיטלית
 
 
 ### עקבו אחרינו
-
-
 
 
 
@@ -2067,11 +2061,11 @@ Description: בלוג הדרכת הורים של שלהבת ברק מלא בתו
 ### יצירת קשר
 
 
-- [business_email]
+- tomerbarak28@gmail.com
 
 - [business_phone]
 
-- [business_address]
+- ראשון לציון
 
 
 
@@ -2094,8 +2088,6 @@ Description: בלוג הדרכת הורים של שלהבת ברק מלא בתו
 
 
 ### עקבו אחרינו
-
-
 
 
 
@@ -2496,11 +2488,11 @@ Sending...
 ### יצירת קשר
 
 
-- [business_email]
+- tomerbarak28@gmail.com
 
 - [business_phone]
 
-- [business_address]
+- ראשון לציון
 
 
 
@@ -2523,8 +2515,6 @@ Sending...
 
 
 ### עקבו אחרינו
-
-
 
 
 
@@ -2717,11 +2707,11 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 - חברה: הדרכת הורים
 
-- אימייל: [business_email]
+- אימייל: tomerbarak28@gmail.com
 
 - טלפון: [business_phone]
 
-- כתובת: [business_address]
+- כתובת: ראשון לציון
 
 
 
@@ -2774,11 +2764,11 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 ### יצירת קשר
 
 
-- [business_email]
+- tomerbarak28@gmail.com
 
 - [business_phone]
 
-- [business_address]
+- ראשון לציון
 
 
 
@@ -3003,7 +2993,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 - חברה: הדרכת הורים
 
-- אימייל: [business_email]
+- אימייל: tomerbarak28@gmail.com
 
 - טלפון: [business_phone]
 
@@ -3061,11 +3051,11 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 ### יצירת קשר
 
 
-- [business_email]
+- tomerbarak28@gmail.com
 
 - [business_phone]
 
-- [business_address]
+- ראשון לציון
 
 
 
@@ -3313,11 +3303,11 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 
 - חברה: הדרכת הורים
 
-- אימייל: [business_email]
+- אימייל: tomerbarak28@gmail.com
 
 - טלפון: [business_phone]
 
-- כתובת: [business_address]
+- כתובת: ראשון לציון
 
 
 
@@ -3367,11 +3357,11 @@ Description: תנאי השימוש באתר - הזכויות והחובות של
 ### יצירת קשר
 
 
-- [business_email]
+- tomerbarak28@gmail.com
 
 - [business_phone]
 
-- [business_address]
+- ראשון לציון
 
 
 

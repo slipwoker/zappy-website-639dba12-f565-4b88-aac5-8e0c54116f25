@@ -44,7 +44,8 @@ Information about WCAG compliance and accessibility features.
 
 ## How to Contact Us
 
-- (No contact details configured yet.)
+- Email: tomerbarak28@gmail.com
+- Address: ראשון לציון
 
 ### Contact form
 - URL: https://example.com/contact
