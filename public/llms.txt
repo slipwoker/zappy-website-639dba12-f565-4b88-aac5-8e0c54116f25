@@ -1,0 +1,80 @@
+# הדרכת הורים — Generative Engine Optimization Map
+
+> Shalhavet Barak is a professional website consultant who guides clients in building and managing their online presence. Her brand revolves around expertise, approachability, and digital empowerment. The website should reflect a modern, professional yet personal tone, showcasing her services, knowledge through a blog, and easy communication channels including WhatsApp and a contact form.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+שלהבת ברק מלווה הורים לבנות נוכחות דיגיטלית חזקה ומקצועית. הדרכת הורים אונליין שמשנה את המשחק — גלו איך אנחנו עושים את זה יחד.
+
+### אודות
+https://example.com/about
+שלהבת ברק היא יועצת אתרים מובילה עם ניסיון עשיר בהדרכת הורים לעולם הדיגיטלי. גלו את הסיפור, הערכים והחזון שמניעים כל פרויקט.
+
+### שירותים
+https://example.com/services
+מבניית אתר ועד ניהול נוכחות דיגיטלית מלאה — הדרכת הורים אונליין עם שלהבת ברק מציעה פתרונות מותאמים אישית לכל הורה. בחרו את החבילה שלכם עכשיו.
+
+### בלוג
+https://example.com/blog
+בלוג הדרכת הורים של שלהבת ברק מלא בתובנות מקצועיות, מדריכים מעשיים וכלים דיגיטליים שיעזרו לכם להתקדם. קראו, למדו והתחילו לפעול היום.
+
+### צור קשר
+https://example.com/contact
+יש לכם שאלות? רוצים להתחיל את המסע הדיגיטלי שלכם? צרו קשר עם שלהבת ברק דרך וואטסאפ או טופס פנייה — הדרכת הורים כאן בשבילכם בכל שלב.
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://example.com/contact
+- Endpoint: https://example.com/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About הדרכת הורים
+Shalhavet Barak is a professional website consultant who guides clients in building and managing their online presence. Her brand revolves around expertise, approachability, and digital empowerment. The website should reflect a modern, professional yet personal tone, showcasing her services, knowledge through a blog, and easy communication channels including WhatsApp and a contact form.
+
+## Target Audience
+- הורים
+
+## Industry
+Web Consulting & Digital Services
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
