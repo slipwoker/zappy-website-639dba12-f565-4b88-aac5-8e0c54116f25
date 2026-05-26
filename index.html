@@ -252,6 +252,349 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: visible;
+  background-color: #C94F0E;
+  color: var(--text-light);
+  direction: rtl;
+  padding-bottom: 80px;
+}
+
+/* ── Background Image ── */
+.index-hero-section .index-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background-size: cover;
+  background-position: center top;
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Scrim Overlay ── */
+.index-hero-section .index-hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(135deg, rgba(201,79,14,0.92) 0%, rgba(232,97,26,0.75) 50%, rgba(244,162,97,0.45) 100%),
+    linear-gradient(to top, rgba(0,0,0,0.55) 0%, transparent 60%);
+}
+
+/* ── Decorative Circles ── */
+.index-hero-section .index-hero-deco-circle {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 2;
+  background: rgba(255,255,255,0.10);
+}
+.index-hero-section .index-hero-deco-circle--large {
+  width: 420px;
+  height: 420px;
+  inset-inline-start: -80px;
+  bottom: -60px;
+  background: radial-gradient(circle, rgba(244,162,97,0.25) 0%, transparent 70%);
+}
+.index-hero-section .index-hero-deco-circle--small {
+  width: 200px;
+  height: 200px;
+  inset-inline-start: 120px;
+  top: 80px;
+  background: rgba(255,255,255,0.07);
+}
+
+/* ── Decorative Plant ── */
+.index-hero-section .index-hero-deco-plant {
+  position: absolute;
+  inset-inline-end: 5%;
+  bottom: 60px;
+  width: 110px;
+  height: auto;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.5;
+  transform: rotate(8deg);
+}
+
+/* ── Decorative Heart Bubble ── */
+.index-hero-section .index-hero-deco-bubble {
+  position: absolute;
+  inset-inline-end: 12%;
+  top: 18%;
+  width: 60px;
+  height: auto;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.75;
+  animation: index-hero-float 4s ease-in-out infinite;
+}
+
+@keyframes index-hero-float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* ── Container ── */
+.index-hero-section .index-hero-container {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+/* ── Content Block ── */
+.index-hero-section .index-hero-content {
+  max-width: 680px;
+  padding: 40px 0 20px;
+  text-align: right;
+}
+
+/* ── Label Badge ── */
+.index-hero-section .index-hero-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255,255,255,0.18);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.35);
+  border-radius: 100px;
+  padding: 6px 16px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--text-light);
+  margin-bottom: 24px;
+  font-family: 'Heebo', 'Assistant', sans-serif;
+  text-transform: uppercase;
+}
+.index-hero-section .index-hero-label-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  flex-shrink: 0;
+  animation: index-hero-pulse 2s ease-in-out infinite;
+}
+@keyframes index-hero-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.8); }
+}
+
+/* ── H1 ── */
+.index-hero-section .index-hero-h1 {font-family: 'Heebo', 'Assistant', 'Rubik', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-light);
+  margin: 0 0 20px 0;
+  letter-spacing: -0.01em;}
+
+/* ── H3 Subtitle ── */
+.index-hero-section .index-hero-h3 {
+  font-family: 'Heebo', 'Assistant', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: rgba(255,249,244,0.92);
+  margin: 0 0 36px 0;
+  text-shadow: 0 1px 12px rgba(0,0,0,0.35);
+  max-width: 560px;
+}
+
+/* ── CTA Row ── */
+.index-hero-section .index-hero-cta-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* ── Primary Button ── */
+.index-hero-section .index-hero-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--text-light);
+  color: #C94F0E;
+  padding: 15px 32px;
+  border-radius: 100px;
+  font-family: 'Heebo', 'Assistant', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 8px 32px rgba(201,79,14,0.35), 0 2px 8px rgba(0,0,0,0.15);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.index-hero-section .index-hero-btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 40px rgba(201,79,14,0.45), 0 4px 16px rgba(0,0,0,0.2);
+  background: #FDF4EE;
+}
+.index-hero-section .index-hero-btn-primary i {
+  font-size: 0.9rem;
+  transition: transform 0.3s ease;
+}
+.index-hero-section .index-hero-btn-primary:hover i {
+  transform: translateX(-4px);
+}
+
+/* ── Trust Badges ── */
+.index-hero-section .index-hero-trust-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  align-items: center;
+}
+.index-hero-section .index-hero-trust-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Heebo', 'Assistant', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: rgba(255,249,244,0.9);
+  text-shadow: 0 1px 6px rgba(0,0,0,0.3);
+}
+.index-hero-section .index-hero-trust-item i {
+  color: #FFFFFF;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+
+/* ── Bottom Divider ── */
+.index-hero-section .index-hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+.index-hero-section .index-hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ══════════════════════════════════════
+   RESPONSIVE — TABLET
+══════════════════════════════════════ */
+@media (min-width: 768px) {
+  .index-hero-section .index-hero-content {
+    padding: 60px 0 30px;
+  }
+  .index-hero-section .index-hero-h1 {
+    font-size: 3.6rem;
+  }
+  .index-hero-section .index-hero-h3 {
+    font-size: 1.15rem;
+  }
+  .index-hero-section .index-hero-cta-row {
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .index-hero-section .index-hero-deco-plant {
+    width: 130px;
+    opacity: 0.55;
+  }
+}
+
+/* ══════════════════════════════════════
+   RESPONSIVE — DESKTOP
+══════════════════════════════════════ */
+@media (min-width: 1024px) {
+  .index-hero-section .index-hero-h1 {
+    font-size: 4rem;
+  }
+  .index-hero-section .index-hero-content {
+    padding: 80px 0 40px;
+  }
+}
+
+/* ══════════════════════════════════════
+   RESPONSIVE — MOBILE
+══════════════════════════════════════ */
+@media (max-width: 767px) {
+  .index-hero-section {
+    min-height: 100svh;
+    padding-bottom: 80px;
+  }
+  .index-hero-section .index-hero-container {
+    padding: 0 16px;
+  }
+  .index-hero-section .index-hero-content {
+    padding: 110px 0 20px;
+    max-width: 100%;
+  }
+  .index-hero-section .index-hero-h1 {
+    font-size: 2.1rem;
+    line-height: 1.25;
+  }
+  .index-hero-section .index-hero-h3 {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+  .index-hero-section .index-hero-cta-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .index-hero-section .index-hero-trust-badges {
+    gap: 10px;
+  }
+  .index-hero-section .index-hero-trust-item {
+    font-size: 0.8rem;
+  }
+  .index-hero-section .index-hero-deco-circle--large {
+    width: 260px;
+    height: 260px;
+    inset-inline-start: -60px;
+    bottom: -30px;
+  }
+  .index-hero-section .index-hero-deco-circle--small {
+    display: none;
+  }
+  .index-hero-section .index-hero-deco-plant {
+    width: 80px;
+    inset-inline-end: 2%;
+    bottom: 50px;
+  }
+  .index-hero-section .index-hero-deco-bubble {
+    width: 44px;
+    inset-inline-end: 6%;
+    top: 14%;
+  }
+}
+/* ZAPPY_POSTGEN_GUARD_HERO_FONT_CAP:index-hero */
+.hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 48px !important; line-height: 1.2 !important; }
+@media (max-width: 1024px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 36px !important; }
+}
+@media (max-width: 768px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: 28px !important; }
+}
+
+/* ZAPPY_POSTGEN_GUARD_HERO_TYPO:בית-hero (index-hero) — stripped 1 jarring hero headline effect(s) */
+
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "639dba12-f565-4b88-aac5-8e0c54116f25"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -813,58 +1156,76 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
+    <section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim" data-zappy-section="true">
   <!-- Background Image -->
-  <div class="index-hero-bg">
-    <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Warm cinematic personal brand hero image for Israeli website consultant Shalhavet Barak. A professional woman in a modern, bright home office workspace with warm orange and deep navy tones. Soft circular glowing shapes in warm orange-amber in the background. The scene feels approachable, expert, and digitally empowered. Flat vector-inspired portrait style with warm bokeh lighting, a laptop on a clean desk, subtle plants, and a professional yet personal atmosphere. Rich warm tones: deep navy, burnt orange, soft beige." width="1200" height="700" src="/assets/site-index-hero-image-1.webp" alt="שלהבת ברק – יועצת אתרים אישית בסביבת עבודה מודרנית וחמה">
-  </div>
+  <div class="index-hero-bg" style="background-image: url('assets/site-index-hero-image-1.webp'); background-size: cover; background-position: center;"></div>
 
   <!-- Scrim Overlay -->
   <div class="index-hero-scrim" aria-hidden="true"></div>
 
-  <!-- Decorative Motifs -->
-  <div class="index-hero-circle-backdrop" aria-hidden="true"></div>
-  <div class="index-hero-circle-sm" aria-hidden="true"></div>
+  <!-- Decorative Circles -->
+  <div class="index-hero-deco-circle index-hero-deco-circle--large" aria-hidden="true"></div>
+  <div class="index-hero-deco-circle index-hero-deco-circle--small" aria-hidden="true"></div>
 
-  <!-- Leaf decoration -->
-  <svg class="index-hero-leaf" aria-hidden="true" data-no-icon-edit="true" viewBox="0 0 120 160" fill="none" xmlns="http://www.w3.org/2000/svg" width="110" height="150">
-    <path d="M60 150 C20 120 0 80 10 40 C20 10 50 0 70 20 C90 40 100 80 80 110 L60 150Z" stroke="#C94F0E" stroke-width="2" fill="rgba(201,79,14,0.18)"></path>
-    <path d="M50 140 C30 110 15 70 30 35 C40 10 65 5 75 25 C85 45 80 85 60 115 L50 140Z" stroke="#F4A261" stroke-width="1.5" fill="rgba(244,162,97,0.10)"></path>
-    <path d="M60 150 L60 60" stroke="#C94F0E" stroke-width="1.5" opacity="0.5"></path>
+  <!-- Decorative Plant SVG -->
+  <svg class="index-hero-deco-plant" aria-hidden="true" data-no-icon-edit="true" viewBox="0 0 120 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M60 140 C60 100 20 80 10 40 C30 55 55 70 60 90 C65 70 90 55 110 40 C100 80 60 100 60 140Z" fill="#C94F0E" opacity="0.45"></path>
+    <path d="M60 140 C60 110 35 95 25 65 C42 78 58 95 60 115 C62 95 78 78 95 65 C85 95 60 110 60 140Z" fill="#E8611A" opacity="0.35"></path>
+    <path d="M60 140 L60 80" stroke="#C94F0E" stroke-width="3" opacity="0.5" stroke-linecap="round"></path>
   </svg>
 
-  <!-- Heart chat bubble decoration -->
-  <svg class="index-hero-heart-bubble" aria-hidden="true" data-no-icon-edit="true" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg" width="64" height="64">
-    <rect x="4" y="4" width="52" height="44" rx="14" stroke="rgba(255,255,255,0.7)" stroke-width="2.5" fill="rgba(255,255,255,0.10)"></rect>
-    <path d="M30 32 C30 26 22 22 22 28 C22 32 30 38 30 38 C30 38 38 32 38 28 C38 22 30 26 30 32Z" fill="rgba(255,255,255,0.75)"></path>
-    <path d="M16 48 L12 58 L26 50" stroke="rgba(255,255,255,0.7)" stroke-width="2" fill="none" stroke-linecap="round"></path>
+  <!-- Decorative Heart Bubble SVG -->
+  <svg class="index-hero-deco-bubble" aria-hidden="true" data-no-icon-edit="true" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="2" y="2" width="52" height="44" rx="14" stroke="white" stroke-width="2.5" fill="none" opacity="0.7"></rect>
+    <path d="M28 30 C28 30 16 22 16 16 C16 12 19 10 22 10 C24.5 10 26.5 11.5 28 13.5 C29.5 11.5 31.5 10 34 10 C37 10 40 12 40 16 C40 22 28 30 28 30Z" fill="white" opacity="0.7"></path>
+    <path d="M14 46 L8 56" stroke="white" stroke-width="2.5" stroke-linecap="round" opacity="0.7"></path>
   </svg>
 
-  <!-- Content Overlay -->
-  <div class="index-hero-content-wrapper">
+  <!-- Content Container -->
+  <div class="index-hero-container">
     <div class="index-hero-content">
-      <span class="index-hero-eyebrow">יועצת אתרים אישית</span>
+
+      <!-- Label Badge -->
+      <div class="index-hero-label">
+        <span class="index-hero-label-dot" aria-hidden="true"></span>
+        יועצת אתרים אישית
+      </div>
+
+      <!-- Main Headline -->
       <h1 class="index-hero-h1">שלהבת ברק –<br>המדריכה שלך<br>לנוכחות דיגיטלית חזקה</h1>
-      <h3 class="index-hero-subtitle">בניית אתר שמייצג אותך, מושך לקוחות ועובד בשבילך – בלי להסתבך לבד.</h3>
-      <div class="index-hero-ctas">
-        <a href="/contact" class="index-hero-btn-primary">
-          <i class="fas fa-arrow-left"></i>
+
+      <!-- Subtitle -->
+      <h3 class="index-hero-h3">בניית אתר שמייצג אותך, מושך לקוחות ועובד בשבילך – בלי להסתבך לבד.</h3>
+
+      <!-- CTA Row -->
+      <div class="index-hero-cta-row">
+        <a href="/contact" class="index-hero-btn-primary btn-pill">
+          <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
           בואי נדבר
         </a>
-        
+        <div class="index-hero-trust-badges">
+          <span class="index-hero-trust-item">
+            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+            ייעוץ אישי
+          </span>
+          <span class="index-hero-trust-item">
+            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+            ניסיון מוכח
+          </span>
+          <span class="index-hero-trust-item">
+            <i class="fa-solid fa-circle-check" aria-hidden="true"></i>
+            תוצאות אמיתיות
+          </span>
+        </div>
       </div>
-      <div class="index-hero-trust">
-        <span class="index-hero-trust-item"><i class="fas fa-check-circle"></i> ייעוץ אישי</span>
-        <span class="index-hero-trust-item"><i class="fas fa-check-circle"></i> ליווי מלא</span>
-        <span class="index-hero-trust-item"><i class="fas fa-check-circle"></i> תוצאות אמיתיות</span>
-      </div>
+
     </div>
   </div>
 
-  <!-- Bottom Wave Divider -->
+  <!-- Bottom Divider -->
   <div class="index-hero-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,90 L0,55 Q120,30 280,48 Q440,65 600,38 Q760,12 920,35 Q1080,58 1220,40 Q1340,25 1440,50 L1440,90 Z" fill="#FDF4EE"></path>
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,45 Q120,30 240,48 T480,38 Q600,28 720,45 T960,35 Q1080,25 1200,42 T1440,38 L1440,80 Z" fill="#FDF4EE"></path>
     </svg>
   </div>
 </section>
@@ -1133,7 +1494,7 @@
   <!-- Bottom Scalloped Divider -->
   <div class="index-blog-preview-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,80 L0,48 Q30,28 60,48 Q90,68 120,48 Q150,28 180,48 Q210,68 240,48 Q270,28 300,48 Q330,68 360,48 Q390,28 420,48 Q450,68 480,48 Q510,28 540,48 Q570,68 600,48 Q630,28 660,48 Q690,68 720,48 Q750,28 780,48 Q810,68 840,48 Q870,28 900,48 Q930,68 960,48 Q990,28 1020,48 Q1050,68 1080,48 Q1110,28 1140,48 Q1170,68 1200,48 L1200,80 Z" fill="#E8611A"></path>
+      <path d="M0,80 L0,48 Q30,28 60,48 Q90,68 120,48 Q150,28 180,48 Q210,68 240,48 Q270,28 300,48 Q330,68 360,48 Q390,28 420,48 Q450,68 480,48 Q510,28 540,48 Q570,68 600,48 Q630,28 660,48 Q690,68 720,48 Q750,28 780,48 Q810,68 840,48 Q870,28 900,48 Q930,68 960,48 Q990,28 1020,48 Q1050,68 1080,48 Q1110,28 1140,48 Q1170,68 1200,48 L1200,80 Z" fill="#C41230"></path>
     </svg>
   </div>
 
@@ -1231,14 +1592,14 @@
         <ul class="footer-contact" aria-label="פרטי יצירת קשר">
           <li>
             <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-            <span class="contact-text"><a href="mailto:tomerbarak28@gmail.com">tomerbarak28@gmail.com</a></span>
+            <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
           </li>
           <li>
             <span class="contact-icon"><i class="fas fa-phone"></i></span>
             <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <span class="contact-text">ראשון לציון</span></a></li>
+            <span class="contact-text">[business_address]</span></a></li>
         </ul>
         <div class="footer-hours">
           <h4 class="footer-hours-title"><i class="fas fa-clock"></i> שעות פעילות</h4>
@@ -1252,7 +1613,9 @@
       <div class="footer-col footer-social-col">
         <h3 class="footer-heading">עקבו אחרינו</h3>
         <div class="footer-social" aria-label="רשתות חברתיות">
-          <!-- All social platforms disabled -->
+          
+          
+          
         </div>
         <div class="footer-cta-block">
           <p class="footer-cta-text">מוכנים להתחיל?</p>
@@ -1283,7 +1646,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp" style="display:none">
+  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   
