@@ -2,13 +2,13 @@
 
 Shalhavet Barak is a professional website consultant who guides clients in building and managing their online presence. Her brand revolves around expertise, approachability, and digital empowerment. The website should reflect a modern, professional yet personal tone, showcasing her services, knowledge through a blog, and easy communication channels including WhatsApp and a contact form.
 
-Source: https://example.com
+Source: https://hadrachat-horim.zappy5.app
 
 ---
 
 ## כי הורות טובה מתחילה כאן — הדרכת הורים
 
-URL: https://example.com
+URL: https://hadrachat-horim.zappy5.app
 Description: שלהבת ברק מלווה הורים לבנות נוכחות דיגיטלית חזקה ומקצועית. הדרכת הורים אונליין שמשנה את המשחק — גלו איך אנחנו עושים את זה יחד.
 
 כי הורות טובה מתחילה כאן — הדרכת הורים
@@ -556,7 +556,7 @@ Description: שלהבת ברק מלווה הורים לבנות נוכחות ד�
 
 ## הכירו את המומחית שמאחורי הקסם — הדרכת הורים
 
-URL: https://example.com/about
+URL: https://hadrachat-horim.zappy5.app/about
 Description: שלהבת ברק היא יועצת אתרים מובילה עם ניסיון עשיר בהדרכת הורים לעולם הדיגיטלי. גלו את הסיפור, הערכים והחזון שמניעים כל פרויקט.
 
 הכירו את המומחית שמאחורי הקסם — הדרכת הורים
@@ -1007,7 +1007,7 @@ Description: שלהבת ברק היא יועצת אתרים מובילה עם נ
 
 ## השירותים שיקפיצו אתכם קדימה — הדרכת הורים
 
-URL: https://example.com/services
+URL: https://hadrachat-horim.zappy5.app/services
 Description: מבניית אתר ועד ניהול נוכחות דיגיטלית מלאה — הדרכת הורים אונליין עם שלהבת ברק מציעה פתרונות מותאמים אישית לכל הורה. בחרו את החבילה שלכם עכשיו.
 
 השירותים שיקפיצו אתכם קדימה — הדרכת הורים
@@ -1586,7 +1586,7 @@ Description: מבניית אתר ועד ניהול נוכחות דיגיטלית
 
 ## טיפים שכל הורה חייב לדעת — הדרכת הורים
 
-URL: https://example.com/blog
+URL: https://hadrachat-horim.zappy5.app/blog
 Description: בלוג הדרכת הורים של שלהבת ברק מלא בתובנות מקצועיות, מדריכים מעשיים וכלים דיגיטליים שיעזרו לכם להתקדם. קראו, למדו והתחילו לפעול היום.
 
 טיפים שכל הורה חייב לדעת — הדרכת הורים
@@ -2148,7 +2148,7 @@ Description: בלוג הדרכת הורים של שלהבת ברק מלא בתו
 
 ## מוכנים להתחיל? דברו איתנו עכשיו — הדרכת הורים
 
-URL: https://example.com/contact
+URL: https://hadrachat-horim.zappy5.app/contact
 Description: יש לכם שאלות? רוצים להתחיל את המסע הדיגיטלי שלכם? צרו קשר עם שלהבת ברק דרך וואטסאפ או טופס פנייה — הדרכת הורים כאן בשבילכם בכל שלב.
 
 מוכנים להתחיל? דברו איתנו עכשיו — הדרכת הורים
@@ -2627,7 +2627,7 @@ Sending...
 
 ## מדיניות פרטיות
 
-URL: https://example.com/privacy
+URL: https://hadrachat-horim.zappy5.app/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -2905,7 +2905,7 @@ Description: מדיניות הפרטיות שלנו - כיצד אנו אוספי
 
 ## הצהרת נגישות
 
-URL: https://example.com/accessibility
+URL: https://hadrachat-horim.zappy5.app/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -3192,7 +3192,7 @@ Description: הצהרת הנגישות שלנו - מחויבותנו לנגיש�
 
 ## תנאי שימוש
 
-URL: https://example.com/terms
+URL: https://hadrachat-horim.zappy5.app/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
